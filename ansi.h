@@ -29,21 +29,6 @@ protected:
 	char s_atr[15];
 };
 
-/*
-*********************************************************************************************************
-*                                               CONSTANTS
-*                                    COLOR ATTRIBUTES FOR VGA MONITOR
-*
-* Description: These #defines are used in the PC_Disp???() functions.  The 'color' argument in these
-*              function MUST specify a 'foreground' color, a 'background' and whether the display will
-*              blink or not.  If you don't specify a background color, BLACK is assumed.  You would
-*              specify a color combination as follows:
-*
-*              PC_DispChar(0, 0, 'A', DISP_FGND_WHITE + DISP_BGND_BLUE + DISP_BLINK);
-*
-*              To have the ASCII character 'A' blink with a white letter on a blue background.
-*********************************************************************************************************
-*/
 #define DISP_FGND_BLACK           0x00
 #define DISP_FGND_RED             0x01
 #define DISP_FGND_GREEN           0x02
